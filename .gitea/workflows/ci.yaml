@@ -13,7 +13,7 @@ jobs:
       image: catthehacker/ubuntu:act-latest
 
     env:
-      DOCKER_ORG: git.asion.tk
+      DOCKER_ORG: git.asion.dev
       DOCKER_LATEST: latest
       DOCKER_IMAGE_NAME: ${{ env.DOCKER_ORG }}/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest
     steps:
